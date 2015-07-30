@@ -9,7 +9,7 @@ router.get('/', function(req, res, next) {
     res.sendFile(path.join(__dirname,'../','views','crud.html'));
 });
 
-var conString = "postgres://postgres:postgres@localhost/sampleapp1";
+var conString = "postgres://postgres:postgres@localhost/academicportal";
 
 //-----------------Add a new record--------------------\\
 router.post('/addrecord', function(req, res) {
